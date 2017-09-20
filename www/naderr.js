@@ -1,8 +1,8 @@
 
 var exec = require('cordova/exec');
 
-var pluginName = "PrinterSDK";
-var btPlugin = {
+var pluginName = "naderr";
+var naderPlugin = {
 	connectPrinter: function(ipaddress, cd){
 		cordova.exec(cd, null, pluginName, "connectPrinter", [ipaddress])
 	},
@@ -20,4 +20,4 @@ var btPlugin = {
 	},
 };
 
-module.exports = btPlugin;
+module.exports = naderPlugin;
