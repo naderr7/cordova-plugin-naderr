@@ -18,6 +18,6 @@
         </config-file>
         <source-file src="src/ios/naderr.m" />
 		    <header-file src="src/ios/naderr.h" />
-		    <source-file src="src/ios/naderr.a" />	
+		    <source-file src="src/ios/libNaderr.a" />	
     </platform>
 	</plugin>
