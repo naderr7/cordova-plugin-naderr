@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-naderr",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-naderr",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "author": {
+    "name": "Nader"
+  },
+  "description": "starting Cordova Plugin"
+}
