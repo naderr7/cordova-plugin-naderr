@@ -13,11 +13,7 @@ var naderPlugin = {
 		
 	printData: function(successCallback, errorCallback){
 		cordova.exec(successCallback, errorCallback, pluginName, "printData")
-	},
-		
-	printTestPaper: function(successCallback, errorCallback){
-		cordova.exec(successCallback, errorCallback, pluginName, "runPrintReceiptSequence")
-	},
+	}
 };
 
 module.exports = naderPlugin;
