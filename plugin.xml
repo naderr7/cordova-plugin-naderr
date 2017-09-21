@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-naderr" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-	<name>Naderr</name>
+   <name>Naderr</name>
   <description></description>
     <license>MIT</license>
     <keywords></keywords>
@@ -9,15 +9,15 @@
     <platform name="ios">
         <js-module src="www/naderr.js" name="naderr">
             <runs/>
-            <clobbers target="cordova.plugins.naderr" />
+            <clobbers target="naderPlugin" />
         </js-module>
         <config-file target="config.xml" parent="/*">
-            <feature name="naderr">
-                <param name="ios-package" value="naderr" onload="true" />
+            <feature name="naderPlugin">
+                <param name="ios-package" value="naderPlugin" onload="true" />
             </feature>
         </config-file>
         <source-file src="src/ios/naderr.m" />
-		    <header-file src="src/ios/naderr.h" />
-		    <source-file src="src/ios/libNaderr.a" />	
+	<header-file src="src/ios/naderr.h" />
+	<source-file src="src/ios/libNaderr.a" />	
     </platform>
-	</plugin>
+</plugin>
